@@ -1,0 +1,21 @@
+{
+  "host": "localhost",
+  "port": 9001,
+  "routes": {
+    "state": "/",
+    "start": "/start",
+    "move": "/move",
+    "end": "/end"
+  },
+  "snake" : {
+    "name": "SNAKENADO",
+    "color": "#fff000",
+    "head_url": "https://snakenado.ngrok.com/snakenado.png",
+    "taunt": {
+      "state": "I am SNAKENADO!",
+      "move": "Make way for SNAKENADO!",
+      "start": "Today has a 100 percent chance of SNAKENADO!",
+      "end": "The SNAKENADO has passed."
+    }
+  }
+}
